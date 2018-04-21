@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ucsb.Sa.Enterprise.AspNet.WebApi.SimpleSecurity", "Ucsb.Sa.Enterprise.AspNet.WebApi.SimpleSecurity\Ucsb.Sa.Enterprise.AspNet.WebApi.SimpleSecurity.csproj", "{D6E0E40E-F143-428E-A3B3-B7614D3BED78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{3BD09932-82BF-484B-9415-03A54EB6DB77}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ucsb.Sa.Enterprise.AspNet.WebApi.SimpleSecurity.Tests", "Ucsb.Sa.Enterprise.AspNet.WebApi.SimpleSecurity.Tests\Ucsb.Sa.Enterprise.AspNet.WebApi.SimpleSecurity.Tests.csproj", "{FAC49F84-2AD9-4269-B4FD-9D552BD0D984}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared", "Shared\Shared.shproj", "{15C69FCB-5C16-45D2-949E-B4085A1B98AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSecurity.Web", "SimpleSecurity.Web\SimpleSecurity.Web.csproj", "{B45DD69E-1B70-47CA-B1C0-6609ED8EF147}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared\Shared.projitems*{15c69fcb-5c16-45d2-949e-b4085a1b98af}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6E0E40E-F143-428E-A3B3-B7614D3BED78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6E0E40E-F143-428E-A3B3-B7614D3BED78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6E0E40E-F143-428E-A3B3-B7614D3BED78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6E0E40E-F143-428E-A3B3-B7614D3BED78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAC49F84-2AD9-4269-B4FD-9D552BD0D984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC49F84-2AD9-4269-B4FD-9D552BD0D984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC49F84-2AD9-4269-B4FD-9D552BD0D984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC49F84-2AD9-4269-B4FD-9D552BD0D984}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B45DD69E-1B70-47CA-B1C0-6609ED8EF147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B45DD69E-1B70-47CA-B1C0-6609ED8EF147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B45DD69E-1B70-47CA-B1C0-6609ED8EF147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B45DD69E-1B70-47CA-B1C0-6609ED8EF147}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {441A5560-9B4B-43CD-BA29-184140823FB7}
+	EndGlobalSection
+EndGlobal

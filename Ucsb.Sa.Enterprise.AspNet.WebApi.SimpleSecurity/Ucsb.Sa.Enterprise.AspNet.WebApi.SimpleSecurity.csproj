@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName></SccProjectName>
+    <SccProvider></SccProvider>
+    <SccAuxPath></SccAuxPath>
+    <SccLocalPath></SccLocalPath>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <DocumentationFile>bin\Debug\net461\Ucsb.Sa.Enterprise.AspNet.WebApi.SimpleSecurity.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\Versioning\AssemblyVersionInfo.cs" Link="AssemblyVersionInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.1.3" />
+    <PackageReference Include="Ninject.Web.Common" Version="3.3.0" />
+    <PackageReference Include="Ninject.Web.WebApi" Version="3.3.0" />
+    <PackageReference Include="Ucsb.Sa.Enterprise.AspNet.WebApi" Version="1.0.46329" />
+    <PackageReference Include="ucsb.sa.enterprise.communication.ucsbdirectory" Version="1.2.46341" />
+    <PackageReference Include="Ucsb.Sa.Enterprise.Utility.EF" Version="2.0.40442" />
+  </ItemGroup>
+
+  <Import Project="..\Shared\Shared.projitems" Label="Shared" />
+
+</Project>
